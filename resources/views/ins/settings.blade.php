@@ -13,7 +13,7 @@
         <div class="row settings-container">
             <div class="col-xs-12">
                 <section>
-                <div class="col-xs-12 col-md-4 left-side">
+                <div class="col-xs-12 col-md-5 left-side">
                     <a href="/profile"><img class="circle" src="{{ App\User::get_gravatar(Auth::user()->email) }}"></a>
 
 
@@ -63,7 +63,7 @@
  
 
                 </div>
-                <div class="col-xs-12 col-md-8 right-side">
+                <div class="col-xs-12 col-md-5 right-side">
                     <div class="mega-menu">
                         <p v-if="msg.error != null" class="status-msg error-msg">@{{ msg.error }}</p>
                         <p v-if="msg.success != null" class="status-msg success-msg">@{{ msg.success }}</p>
