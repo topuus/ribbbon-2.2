@@ -592,7 +592,8 @@ img {
 .settings-container .left-side {
   background-color: #3e3e3e;
   padding: 10px 20px;
-  height: 600px; }
+  /*height: 600px; */
+}
 
 .settings-container .left-side .info {
   float: left;
